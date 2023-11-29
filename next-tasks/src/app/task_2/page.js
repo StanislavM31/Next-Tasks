@@ -10,12 +10,10 @@ export default function Task2() {
     setObj({...obj, [e.target.name]: e.target.value})
   }
   function doCheck(){
-    if(!/^[a-zA-Z-_0-9]+@[a-z]+.[a-z]{2,10}/gm.test(obj.email) || !isNaN(obj.name) || !isNaN(obj.surname) || !isNaN(obj.pwd)){
-      console.log("поля не заполнены");
-      console.log("object is: ", obj);
+    if(!/^[a-zA-Z-_0-9]+@[a-z]+.[a-z]{2,10}/gm.test(obj.email) || !isNaN(obj.name) || !isNaN(obj.surname) || !(obj.pwd.length)){
+      alert(false)
     } else {
-      console.log("object is: ", obj);
-      console.log("Поля заполнены");
+      alert(true)
     }
   }
   return (
