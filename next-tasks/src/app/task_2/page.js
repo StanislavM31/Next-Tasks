@@ -1,6 +1,6 @@
 'use client';
 import style from "./style.module.css";
-import { useEffect, useState } from "react";
+import {useState } from "react";
 
 export default function Task2() {
 
