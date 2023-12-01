@@ -1,0 +1,13 @@
+
+.block{
+    font-size: 20px;
+    color: rgb(141, 150, 23);
+    margin: 50px 100px;
+}
+.block p {
+    margin-top: 20px;
+    border: 1px solid rgba(141, 150, 23, 0.836);
+}
+.block p:hover{
+    cursor: pointer;
+}

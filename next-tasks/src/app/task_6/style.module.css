@@ -1,0 +1,51 @@
+.themeDark{
+    background-color: rgb(241, 237, 237);
+    color: black;
+    transition: all 1s ease-out;
+}
+.themeLight{
+    background-color:black;
+    color: #FFFF;
+    transition: all 1s ease-out;
+}
+.blockDark{
+    font-size: 20px;
+    color: black;
+    margin: 20px 50px;
+    padding: 20px 20px;
+    transition: all 1s ease-out;
+}
+.blockLight{
+    font-size: 20px;
+    color: #FFFF;
+    margin: 20px 50px;
+    padding: 20px 20px;
+    transition: all 1s ease-out;
+}
+
+
+.btnDark{
+    background-color: black;
+    color: #FFFF;
+    width: 50px;
+    height: 50px;
+    padding: 20px 10px 0 10px;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 1s ease-out;
+}
+.btnLight{
+    background-color: #FFFF;
+    color: black;
+    width: 50px;
+    height: 50px;
+    padding: 20px 10px 0 10px;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 1s ease-out;
+}
+

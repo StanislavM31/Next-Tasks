@@ -22,12 +22,12 @@ export default function Task3() {
         3. Создайте форму для ввода данных. По клику на кнопку получите данные
         из input и отобразите в консоль
       </p>
-      <div className={style.form}>
-            <input onChange={fillInput} name = "name" className={style.input} type="text" placeholder="name"/>
-            <input onChange={fillInput} name = "surname" className={style.input} type="text" placeholder="surname"/>
-            <input onChange={fillInput} name = "email" className={style.input} type="text" placeholder="email"/>
-            <input onChange={fillInput} name = "pwd" className={style.input} type="text" placeholder="password"/>
-            <button onClick={doCheck} className={style.btn}>-PRESS-</button>
+      <div classNameName={style.form}>
+            <input onChange={fillInput} name = "name" classNameName={style.input} type="text" placeholder="name"/>
+            <input onChange={fillInput} name = "surname" classNameName={style.input} type="text" placeholder="surname"/>
+            <input onChange={fillInput} name = "email" classNameName={style.input} type="text" placeholder="email"/>
+            <input onChange={fillInput} name = "pwd" classNameName={style.input} type="text" placeholder="password"/>
+            <button onClick={doCheck} classNameName={style.btn}>-PRESS-</button>
         </div>
     </>
   );

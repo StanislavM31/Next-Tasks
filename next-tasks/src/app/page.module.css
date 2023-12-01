@@ -1,0 +1,19 @@
+.wrapper{
+    max-width: 1400px;
+    height: 100vh;
+    background-color: rgba(232, 233, 235, 0.788);
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+.h1{
+    margin: 20px 100px;
+}
+.superblock{
+    min-width: 455px;
+    margin: 20px 100px;
+    padding: 30px 30px;
+    border: 1px solid black;
+    font-size: 25px;
+    background-color: #FFFF;
+}
