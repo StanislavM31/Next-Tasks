@@ -1,0 +1,15 @@
+.form{
+    border: 1px solid black;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    padding: 30px 20px;
+}
+.p{
+    border-radius: 50px;
+    padding: 5px 10px;
+    border: 2px solid rgb(34, 102, 119);
+    line-height: 20px;
+}
