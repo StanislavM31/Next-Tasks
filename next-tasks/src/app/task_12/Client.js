@@ -1,4 +1,4 @@
-
+"use client";
 
 import style from "./style.module.css";
 
@@ -8,7 +8,7 @@ export default function Client({Input}) {
 
       <div className={style.form}>
         <Input />
-        <Input />
+
         <button className={style.btn} onClick={() => alert("hi")}>
           press
         </button>

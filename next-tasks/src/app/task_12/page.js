@@ -1,8 +1,9 @@
 "use client";
 
 import Client from "./Client";
+import Input from "./Input";
 
-export default function Task12({Input}) {
+export default function Task12() {
   return (
     <>
       <p>
