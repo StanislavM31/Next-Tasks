@@ -8,6 +8,7 @@ import task3 from "./task_3/page";
 import task4 from "./task_4/page";
 import task5 from "./task_5/page";
 import task6 from "./task_6/page";
+import task7 from "./task_7/page";
 
 import task11 from "./task_11/page";
 import task12 from "./task_12/page";
@@ -38,6 +39,9 @@ export default function Home() {
         </p>
         <p>
           <Link href="/task_6">задача №6</Link>
+        </p>
+        <p>
+          <Link href="/task_7">задача №7</Link>
         </p>
         <p>
           <Link href="/task_11">задача №11</Link>
